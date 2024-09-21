@@ -1,3 +1,9 @@
+#Software requirements:
+#arc-theme
+#xrandr
+#feh
+#i3-config-wizard
+
 #Meins
 exec_always xrandr --output DP-2 --mode 2560x1440 --rate 239.97
 exec_always feh --bg-scale /home/lunatic/Pictures/wallpaper.jpg
@@ -17,15 +23,8 @@ client.focused_inactive $inactive-bg-color $inactive-bg-color $inactive-text-col
 client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          #00ff00
 
 hide_edge_borders both
+
 #meinsende
-#apt install:
-#arc-theme
-#(firefoxauch)
-#thunar
-#xrandr
-#feh
-#redshift
-#i3-config-wizard
 #unten auch!
 
 
