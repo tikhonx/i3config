@@ -5,8 +5,10 @@
 #i3-config-wizard
 
 #Meins
-exec_always xrandr --output DP-2 --mode 2560x1440 --rate 239.97
 exec_always feh --bg-scale /home/lunatic/Pictures/wallpaper.jpg
+
+#copy to .xinitrc
+exec_always xrandr --output DP-2 --mode 2560x1440 --rate 239.97
 exec_always setxkbmap -layout de
 
 set $bg-color            #2f343f
