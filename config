@@ -1,8 +1,7 @@
 #Software requirements:
-#arc-theme
 #xrandr
 #feh
-#i3-config-wizard
+#kitty
 
 #Meins
 exec_always feh --bg-scale /home/lunatic/Pictures/wallpaper.jpg
@@ -85,7 +84,8 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+# bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec kitty
 # bindsym $mod+Return exec dbus-launch gnome-terminal
 # sometimes need to use dbus-launch to display terminal
 
