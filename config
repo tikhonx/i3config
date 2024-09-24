@@ -79,7 +79,7 @@ bindsym $mod+Return exec kitty
 # sometimes need to use dbus-launch to display terminal
 
 # kill focused window
-bindsym $mod+Shift+q kill
+bindsym $mod+q kill
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec --no-startup-id dmenu_run
